@@ -488,17 +488,9 @@ path#middle {
         text-align: left;
 }
 
-.navi .primary-navi a {
-    font-family: 'Raleway', sans-serif;
-    font-size: 2.4rem;
-    color: #D7DADB;
-    display: inline-block;
 
-}
 
-.navi .primary-navi a.selected {
-    color: #ffffff;
-}
+
 
 .no-touch .navi .primary-navi a:hover {
     color: #fdd40a;
@@ -526,7 +518,7 @@ path#middle {
 
 }
 
-@media only screen and (min-width: 1170px) {
+
   
   .navi .navigation-wrapper {
       padding: 62px 20%;
@@ -557,7 +549,7 @@ path#middle {
     }
   
     .navi .primary-navi a {
-      font-size: 5rem;
+      font-size: 6rem;
       color: #fff;
       font-family: 'EuclidL';
        -webkit-transition: all 0.4s ease-out;
@@ -568,13 +560,13 @@ transition: all 0.4s ease-out;
     }
 
     .navi .primary-navi a:hover {
-      font-size: 5rem;
+      font-size: 6rem;
       color: #fdd40a;
       font-family: 'EuclidL';
       transition: all 0.4s ease-in-out;
     }
 
-}
+
 
 
 
@@ -802,6 +794,16 @@ opacity: 0.7}
 
 @media only screen and (max-width: 1600px) {
 
+    .navi .primary-navi a {
+      font-size: 4rem;
+
+    }
+
+    .navi .primary-navi a:hover {
+      font-size: 4rem;
+
+    }
+
 div.main > h1 {
     font-size: 9.6rem;
     margin-bottom: 1em;
@@ -920,6 +922,17 @@ div.main > h1 > span {
 
 
 @media only screen and (max-width: 670px) {
+
+
+    .navi .primary-navi a {
+      font-size: 3rem;
+
+    }
+
+    .navi .primary-navi a:hover {
+      font-size: 3rem;
+
+    }
 
 div.main > h1 {
     font-size: 4.6rem;
