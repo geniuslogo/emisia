@@ -561,7 +561,7 @@ transition: all 0.4s ease-out;
 
     .navi .primary-navi a:hover {
       font-size: 6rem;
-      color: #fdd40a;
+      color: #164a9d;
       font-family: 'EuclidL';
       transition: all 0.4s ease-in-out;
     }
@@ -922,6 +922,25 @@ div.main > h1 > span {
 
 
 @media only screen and (max-width: 670px) {
+
+  .navi-trigger svg {
+    position: absolute;
+    top: -40px;
+    left: 30px;
+}
+
+.logo {float: left;  margin-top: -180px;}
+
+.content p {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    color: #000;
+    font-family: 'EuclidR';
+    width: 80%;
+    margin: 0 auto;
+    padding: 2% 0;
+    text-align: left;
+    text-rendering: optimizeLegibility;
 
 
     .navi .primary-navi a {
