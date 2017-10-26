@@ -87,25 +87,25 @@
 
 
 @keyframes fadein {
-    from { opacity: 0; }
+    from { opacity: 0.5; }
     to   { opacity: 1; }
 }
 
 /* Firefox */
 @-moz-keyframes fadein {
-    from { opacity: 0; }
+    from { opacity: 0.5; }
     to   { opacity: 1; }
 }
 
 /* Safari and Chrome */
 @-webkit-keyframes fadein {
-    from { opacity: 0; }
+    from { opacity: 0.5; }
     to   { opacity: 1; }
 }
 
 /* Internet Explorer */
 @-ms-keyframes fadein {
-    from { opacity: 0; }
+    from { opacity: 0.5; }
     to   { opacity: 1; }
 }
 
@@ -117,12 +117,12 @@
 
 /* Fade in tabs */
 @-webkit-keyframes fadeEffect {
-    from {opacity: 0;}
+    from {opacity: 0.5;}
     to {opacity: 1;}
 }
 
 @keyframes fadeEffect {
-    from {opacity: 0;}
+    from {opacity: 0.5;}
     to {opacity: 1;}
 }
 
@@ -829,39 +829,19 @@ opacity: 0.7}
 
 
 .homer1 {background: url(../images/Java-team_last-frame-F.gif)no-repeat center; height: 200px; width:200px; margin-right: 40px;   float:left; margin-bottom: 30px; }
-.homer1:hover {background: url(../images/Java-team-forever-F.gif) no-repeat center;  cursor: pointer;  -webkit-transition: all 0.4s ease-in;
-   -moz-transition: all 0.4s ease-in;
-   -o-transition: all 0.4s ease-in;
-   -ms-transition: all 0.4s ease-in;
-transition: all 0.4s ease-in;}
+.homer1:hover {background: url(../images/Java-team-forever-F.gif) no-repeat center;  cursor: pointer; animation: fadein 0.8s;}
 
 .homer2 {background: url(../images/UI-team_last-frame-F.gif)no-repeat center; height: 200px; width:200px; margin-right: 40px;  float:left; margin-bottom: 30px;  }
-.homer2:hover {background: url(../images/UI-team-forever-F.gif) no-repeat center;  cursor: pointer;   -webkit-transition: all 0.4s ease-in;
-   -moz-transition: all 0.4s ease-in;
-   -o-transition: all 0.4s ease-in;
-   -ms-transition: all 0.4s ease-in;
-transition: all 0.4s ease-in;}
+.homer2:hover {background: url(../images/UI-team-forever-F.gif) no-repeat center;  cursor: pointer; animation: fadein 0.8s;}
 
 .homer3 {background: url(../images/QA-team_last-frame-F.gif)no-repeat center; height: 200px; width:200px; margin-right: 40px;  float:left; margin-bottom: 30px; }
-.homer3:hover {background: url(../images/QA-team-forever-F.gif) no-repeat center;  cursor: pointer;  -webkit-transition: all 0.4s ease-in;
-   -moz-transition: all 0.4s ease-in;
-   -o-transition: all 0.4s ease-in;
-   -ms-transition: all 0.4s ease-in;
-transition: all 0.4s ease-in;}
+.homer3:hover {background: url(../images/QA-team-forever-F.gif) no-repeat center;  cursor: pointer;  animation: fadein 0.8s;}
 
 .homer4 {background: url(../images/DTP-team_last-frame-F.gif)no-repeat center; height: 200px; width:200px; margin-right: 40px;  float:left;  margin-bottom: 30px;}
-.homer4:hover {background: url(../images/DTP-team-forever-F.gif) no-repeat center;  cursor: pointer;  -webkit-transition: all 0.4s ease-in;
-   -moz-transition: all 0.4s ease-in;
-   -o-transition: all 0.4s ease-in;
-   -ms-transition: all 0.4s ease-in;
-transition: all 0.4s ease-in;}
+.homer4:hover {background: url(../images/DTP-team-forever-F.gif) no-repeat center;  cursor: pointer; animation: fadein 0.8s;}
 
 .homer5 {background: url(../images/Trans-team_last-frame-F.gif)no-repeat center; height: 200px; width:200px; margin-right: 40px;  float:left; margin-bottom: 30px;  }
-.homer5:hover {background: url(../images/Trans-team-forever-F.gif) no-repeat center;  cursor: pointer;  -webkit-transition: all 0.4s ease-in;
-   -moz-transition: all 0.4s ease-in;
-   -o-transition: all 0.4s ease-in;
-   -ms-transition: all 0.4s ease-in;
-transition: all 0.4s ease-in;}
+.homer5:hover {background: url(../images/Trans-team-forever-F.gif) no-repeat center;  cursor: pointer;  animation: fadein 0.8s;}
 
 }
 
