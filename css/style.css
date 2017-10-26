@@ -816,7 +816,6 @@ div.main > h1 {
 div.main > h1 > span {
     font-size: 17.6rem;
 
-
 }
 
 .comp-holder {margin-top: 3%; width: 100%; margin: 0 auto;}
@@ -883,7 +882,6 @@ div.main > h1 {
 
 div.main > h1 > span {
     font-size: 12.6rem;
-
 }
 
 .comp-holder {margin-top: 3%; width: 100%; margin: 0 auto;}
@@ -916,7 +914,6 @@ div.main > h1 {
 
 div.main > h1 > span {
     font-size: 10.6rem;
-
 }
 
 
@@ -950,19 +947,16 @@ div.main > h1 > span {
 
     .navi .primary-navi a:hover {
       font-size: 3rem;
-
     }
 
 div.main > h1 {
     font-size: 4.6rem;
     line-height: 4.6rem;
     width: 80%;
-
 }
 
 div.main > h1 > span {
     font-size: 8.6rem;
-
 }
 
 .comp-holder h4 {font-size: 1.4rem;
