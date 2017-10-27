@@ -923,17 +923,17 @@ div.main > h1 > span {
   .navi-trigger svg {
     position: absolute;
     top: -40px;
-    left: 30px;
+    left: 42px;
 }
 
 .logo {float: left;  margin-top: -180px;}
 
 .content p {
-    font-size: 1.2rem;
-    line-height: 1.4rem;
+    font-size: 1rem;
+    line-height: 1.8rem;
     color: #000;
     font-family: 'EuclidR';
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
     padding: 2% 0;
     text-align: left;
@@ -1003,7 +1003,7 @@ div.main > h1 > span {
       color: #164a9d;
       font-family: 'EuclidR';
       margin: 0 auto;
-      padding: 5% 0;
+      padding: 13% 0;
       text-align: left;
       text-rendering: optimizeLegibility;
       float: left;
@@ -1013,6 +1013,22 @@ div.main > h1 > span {
     display: inline-block;
     margin: -38px 10px;
 }
+
+.main::before {display: none;}
+
+.main::after {
+    background: url(../images/pattern.svg) no-repeat right;
+    content: '';
+    width: 200%;
+    height: inherit;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: -154%;
+    z-index: -7;
+}
+
+
 
 }
 
