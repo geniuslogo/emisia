@@ -579,30 +579,12 @@ transition: all 0.4s ease-out;
 
     }
 
-  .main::before{    background: url(../images/patternijan.svg) no-repeat left;
-    content: '';
-    width: 100%;
-    height: inherit;
-    display: block;
-    position: absolute;
-    left: -10%;
-    bottom: 0;
-    z-index: -7;
-    background-size: cover;}
-
-      .main::after {    background: url(../images/pattern.svg) no-repeat right;
-    content: '';
-    width: 100%;
-    height: inherit;
-    display: block;
-    position: absolute;
-    bottom: 0;
-        right: 0;
-    z-index: -7;}
+  .main{    background: url(../images/gtr0.svg) no-repeat center; background-size: cover;}
 
 
 
-.content {background: #f2f5fa;}
+
+.content {background: #f2f5fa url(../images/gtr.svg) no-repeat center; width: 100%;}
 
 
 .content p{ 
@@ -703,25 +685,9 @@ padding-bottom: 10rem;
 }
 
 
-.content2 {background-color: #fff; }
+.content2 {background-color: #fff;}
 
-.content::before {background: url(../images/krug.svg) no-repeat left;
-    content: '';
-    width: 40%;
-    height: 40%;
-    display: block;
-    position: absolute;
-    bottom: -100%;
-    left: -10%;}
 
-.content::after {background: url(../images/trougao.svg) no-repeat right;
-    content: '';
-    width: 30%;
-    height: 30%;
-    display: block;
-    position: absolute;
-    bottom: -50%;
-    right: 0%;}
 
 
 
@@ -729,27 +695,11 @@ padding-bottom: 10rem;
 
 @media only screen and (max-width: 2000px) {
 
-.comp-holder {margin-top: 3%; width: 100%; margin: 0 auto;}
+.comp-holder {margin-top: 3%; width: 100%; margin: 0 auto;  background: url(../images/gtr2.svg) no-repeat center; width: 100%;}
 
-.comp-holder::before {background: url(../images/krug3.svg) no-repeat right;
-    content: '';
-    width: 20%;
-    height: 20%;
-    display: block;
-    position: absolute;
-    bottom: -240%;
-    right: 0%;
-opacity: 0.7}
 
-.comp-holder::after {background: url(../images/trougao3.svg) no-repeat left;
-    content: '';
-    width: 30%;
-    height: 30%;
-    display: block;
-    position: absolute;
-    bottom: -185%;
-    left: 0%;
-	opacity: 0.7}
+
+
 
 .comp-holder h4 {font-size: 1.4rem;
   	  line-height: 1.4rem;
@@ -1014,19 +964,7 @@ div.main > h1 > span {
     margin: -38px 10px;
 }
 
-.main::before {display: none;}
 
-.main::after {
-    background: url(../images/pattern.svg) no-repeat right;
-    content: '';
-    width: 200%;
-    height: inherit;
-    display: block;
-    position: absolute;
-    bottom: 0;
-    left: -154%;
-    z-index: -7;
-}
 
 
 
