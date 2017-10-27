@@ -886,7 +886,7 @@ div.main > h1 > span {
     width: 75%;
     margin: 0 auto;
     padding: 2% 0;
-    text-align: left;
+    text-align: center;
     text-rendering: optimizeLegibility;
 }
 
@@ -927,7 +927,7 @@ div.main > h1 > span {
       font-family: 'EuclidR';
       margin: 0 auto;
       padding: 2% 0;
-      text-align: left;
+      text-align: center;
       text-rendering: optimizeLegibility;}
 
 .homer0 { margin-top: 5%;}
@@ -945,7 +945,7 @@ div.main > h1 > span {
 }
 .hideme {opacity: 1;}
 
-.podnaslov {display: inline-block; width: 60%; margin-top: 5%;}
+.podnaslov {display: inline-block; width: max-content; margin-top: 5%;}
 
 .podnaslov h4 {
     font-size: 1.8rem;
