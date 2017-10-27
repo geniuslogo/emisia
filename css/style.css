@@ -963,16 +963,16 @@ div.main > h1 > span {
   	  line-height: 2rem;
       color: #557dbd;
       font-family: 'EuclidR';
-      text-align: left;
+      text-align: center;
       text-rendering: optimizeLegibility;}
 
 .comp-holder {margin-top: 3%; width: 100%; margin: 0 auto;}
 
-.homer {padding-bottom: 6%; width: 80%; margin: 0 auto;}
+.homer {padding-bottom: 6%; width: 75%; margin: 0 auto;}
 
 .homer p {
-	font-size: 1.2rem;
-	  line-height: 2.0rem;
+    font-size: 1rem;
+    line-height: 1.8rem;
       color: #000;
       font-family: 'EuclidR';
       margin: 0 auto;
@@ -982,18 +982,37 @@ div.main > h1 > span {
 
 .homer0 { margin-top: 5%;}
 
-.homer1 {background: url(../images/jav.svg)no-repeat center; height: 150px; width:150px; margin-right: 0px;   float:none; margin-bottom: 0px; }
+.homer1 {background: url(../images/jav.svg)no-repeat center; height: 150px; width:150px;   float:none; margin:0 auto; }
 
-.homer2 {background: url(../images/ui.svg)no-repeat center; height: 150px; width:150px; margin-right: 0px;  float:none; margin-bottom: 0px;  }
+.homer2 {background: url(../images/ui.svg)no-repeat center; height: 150px; width:150px;   float:none; margin:0 auto; }
 
-.homer3 {background: url(../images/qa.svg)no-repeat center; height: 150px; width:150px; margin-right: 0px;  float:none; margin-bottom: 0px; }
+.homer3 {background: url(../images/qa.svg)no-repeat center; height: 150px; width:150px;   float:none; margin:0 auto; }
 
-.homer4 {background: url(../images/dtp.svg)no-repeat center; height: 150px; width:150px; margin-right: 0px;  float:none;  margin-bottom: 0px;}
+.homer4 {background: url(../images/dtp.svg)no-repeat center; height: 150px; width:150px;   float:none;  margin:0 auto;}
 
-.homer5 {background: url(../images/tra.svg)no-repeat center; height: 150px; width:150px; margin-right: 0px;  float:none; margin-bottom: 0px;  }
+.homer5 {background: url(../images/tra.svg)no-repeat center; height: 150px; width:150px;  float:none; margin:0 auto;  }
 
 }
 .hideme {opacity: 1;}
+
+.podnaslov {display: inline-block; width: 60%; margin-top: 5%;}
+
+.podnaslov h4 {
+    font-size: 1.8rem;
+      line-height: 2.2rem;
+      color: #164a9d;
+      font-family: 'EuclidR';
+      margin: 0 auto;
+      padding: 5% 0;
+      text-align: left;
+      text-rendering: optimizeLegibility;
+      float: left;
+  }
+.pera {
+  width: 50px;
+    display: inline-block;
+    margin: -38px 10px;
+}
 
 }
 
