@@ -982,20 +982,15 @@ div.main > h1 > span {
 
 .homer0 { margin-top: 5%;}
 
-.homer1 {background: url(../images/Java-team_last-frame-F.gif)no-repeat center; height: 200px; width:200px; margin-right: 0px;   float:none; margin-bottom: 0px; }
-.homer1:hover {background: url(../images/Java-team-forever-F.gif) no-repeat center;  cursor: pointer; animation: fadein 0.8s;}
+.homer1 {background: url(../images/jav.svg)no-repeat center; height: 200px; width:200px; margin-right: 0px;   float:none; margin-bottom: 0px; }
 
-.homer2 {background: url(../images/UI-team_last-frame-F.gif)no-repeat center; height: 200px; width:200px; margin-right: 0px;  float:none; margin-bottom: 0px;  }
-.homer2:hover {background: url(../images/UI-team-forever-F.gif) no-repeat center;  cursor: pointer; animation: fadein 0.8s;}
+.homer2 {background: url(../images/ui.svg)no-repeat center; height: 200px; width:200px; margin-right: 0px;  float:none; margin-bottom: 0px;  }
 
-.homer3 {background: url(../images/QA-team_last-frame-F.gif)no-repeat center; height: 200px; width:200px; margin-right: 0px;  float:none; margin-bottom: 0px; }
-.homer3:hover {background: url(../images/QA-team-forever-F.gif) no-repeat center;  cursor: pointer; animation: fadein 0.8s;}
+.homer3 {background: url(../images/qa.svg)no-repeat center; height: 200px; width:200px; margin-right: 0px;  float:none; margin-bottom: 0px; }
 
-.homer4 {background: url(../images/DTP-team_last-frame-F.gif)no-repeat center; height: 200px; width:200px; margin-right: 0px;  float:none;  margin-bottom: 0px;}
-.homer4:hover {background: url(../images/DTP-team-forever-F.gif) no-repeat center;  cursor: pointer; animation: fadein 0.8s;}
+.homer4 {background: url(../images/dtp.svg)no-repeat center; height: 200px; width:200px; margin-right: 0px;  float:none;  margin-bottom: 0px;}
 
-.homer5 {background: url(../images/Trans-team_last-frame-F.gif)no-repeat center; height: 200px; width:200px; margin-right: 0px;  float:none; margin-bottom: 0px;  }
-.homer5:hover {background: url(../images/Trans-team-forever-F.gif) no-repeat center;  cursor: pointer; animation: fadein 0.8s;}
+.homer5 {background: url(../images/tra.svg)no-repeat center; height: 200px; width:200px; margin-right: 0px;  float:none; margin-bottom: 0px;  }
 
 }
 
