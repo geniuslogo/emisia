@@ -982,18 +982,18 @@ div.main > h1 > span {
 
 .homer0 { margin-top: 5%;}
 
-.homer1 {background: url(../images/jav.svg)no-repeat center; height: 200px; width:200px; margin-right: 0px;   float:none; margin-bottom: 0px; }
+.homer1 {background: url(../images/jav.svg)no-repeat center; height: 150px; width:150px; margin-right: 0px;   float:none; margin-bottom: 0px; }
 
-.homer2 {background: url(../images/ui.svg)no-repeat center; height: 200px; width:200px; margin-right: 0px;  float:none; margin-bottom: 0px;  }
+.homer2 {background: url(../images/ui.svg)no-repeat center; height: 150px; width:150px; margin-right: 0px;  float:none; margin-bottom: 0px;  }
 
-.homer3 {background: url(../images/qa.svg)no-repeat center; height: 200px; width:200px; margin-right: 0px;  float:none; margin-bottom: 0px; }
+.homer3 {background: url(../images/qa.svg)no-repeat center; height: 150px; width:150px; margin-right: 0px;  float:none; margin-bottom: 0px; }
 
-.homer4 {background: url(../images/dtp.svg)no-repeat center; height: 200px; width:200px; margin-right: 0px;  float:none;  margin-bottom: 0px;}
+.homer4 {background: url(../images/dtp.svg)no-repeat center; height: 150px; width:150px; margin-right: 0px;  float:none;  margin-bottom: 0px;}
 
-.homer5 {background: url(../images/tra.svg)no-repeat center; height: 200px; width:200px; margin-right: 0px;  float:none; margin-bottom: 0px;  }
+.homer5 {background: url(../images/tra.svg)no-repeat center; height: 150px; width:150px; margin-right: 0px;  float:none; margin-bottom: 0px;  }
 
 }
-
+.hideme {opacity: 1;}
 
 }
 
