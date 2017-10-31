@@ -680,6 +680,62 @@ div.main > h1 > span { font-size: 17.6rem;}
 
 }
 
+                           /******** F  O  O  T  E  R ********/
+
+.copyright {height: 600px; background-color: #134697;}
+
+.footer-menu ul {text-align: center; margin: auto;}
+.footer-menu ul li {list-style: none; text-align: center; display: inline-block; margin: auto;}
+.footer-menu {display: inline-block; padding-top: 10px}
+
+.footer-menu a {text-decoration: none; color: #fff;  font-size: 1.1rem; padding: 10px 50px; font-family: 'EuclidR';
+    -webkit-transition: all 0.4s ease-in;
+    -moz-transition: all 0.4s ease-in;
+    -o-transition: all 0.4s ease-in;
+    -ms-transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in;}
+
+.footer-menu a:hover {text-decoration: none; color: #6d93d2;  font-size: 1.1rem; padding: 10px 50px;  font-family: 'EuclidR';
+   -webkit-transition: all 0.4s ease-out;
+   -moz-transition: all 0.4s ease-out;
+   -o-transition: all 0.4s ease-out;
+   -ms-transition: all 0.4s ease-out;
+   transition: all 0.4s ease-out;}
+
+
+.copyright p {font-size: 0.85rem;
+    line-height: 1.4rem;
+      color: #6d93d2;
+      font-family: 'EuclidL';
+      margin: 0 auto;
+      text-align: center;
+      text-rendering: optimizeLegibility;}
+
+.copyright h5 {font-size: 0.85rem;
+    line-height: 1.4rem;
+      color: #fff;
+      font-family: 'EuclidR';
+      margin: 0 auto;
+      text-align: center;
+      text-rendering: optimizeLegibility;
+      padding-bottom: 2%;
+      padding-top: 5%;}
+
+.logo2 {padding-top: 80px; padding-bottom: 2%;}
+
+.linija1 { width: 38%; height: 1px; background-color: #6d93d2; left: 0; line-height: 40px; top: 56%; position: absolute; opacity: 0.2;}
+.linija2 { width: 38%; height: 1px; background-color: #6d93d2;  right:0;   top: 56%; position: absolute; opacity: 0.2;}
+
+.naslovi {width: 100%;  text-align: center;   position: relative; margin: 0 auto; padding-bottom: 30px;}
+
+.social { margin-top: 3%; }
+.social li  {clear: both; display: inline-block; margin-right: 22px; vertical-align: middle;}
+.social li:last-child  {margin-right: 0;}
+.social li a img  {  -webkit-transition: all 0.4s ease-in; -moz-transition: all 0.4s ease-in; -o-transition: all 0.4s ease-in; -ms-transition: all 0.4s ease-in; transition: all 0.4s ease-in;}
+.social li a:hover img  {opacity: 0.6; transition: all 0.2s ease-in-out;}
+.social p { line-height: 1.8rem; color: #fff; font-family: 'EuclidR'; }
+/******** kraj footera ********/
+
 
 @media only screen and (max-width: 1400px) {
 
@@ -972,66 +1028,52 @@ div.main > h1 > span { font-size: 8.6rem;}
       float: left;
   }
 .pera { width: 50px; display: inline-block; margin: -38px 10px; display: none;}
-}
-}
-
 
 
                            /******** F  O  O  T  E  R ********/
 
-.copyright {height: 600px; background-color: #134697;}
+.copyright {height: 650px; background-color: #134697;}
 
 .footer-menu ul {text-align: center; margin: auto;}
 .footer-menu ul li {list-style: none; text-align: center; display: inline-block; margin: auto;}
-.footer-menu {display: inline-block; padding-top: 10px}
+.footer-menu {    width: 50%;
+    display: block;
+    padding-top: 10px;
+    text-align: center;
+    margin: 0 auto;}
 
-.footer-menu a {text-decoration: none; color: #fff;  font-size: 1.1rem; padding: 10px 50px; font-family: 'EuclidR';
-    -webkit-transition: all 0.4s ease-in;
-    -moz-transition: all 0.4s ease-in;
-    -o-transition: all 0.4s ease-in;
-    -ms-transition: all 0.4s ease-in;
-    transition: all 0.4s ease-in;}
-
-.footer-menu a:hover {text-decoration: none; color: #6d93d2;  font-size: 1.1rem; padding: 10px 50px;  font-family: 'EuclidR';
-   -webkit-transition: all 0.4s ease-out;
-   -moz-transition: all 0.4s ease-out;
-   -o-transition: all 0.4s ease-out;
-   -ms-transition: all 0.4s ease-out;
-   transition: all 0.4s ease-out;}
+.footer-menu a {line-height: 2.2rem;}
 
 
 .copyright p {font-size: 0.85rem;
-	  line-height: 1.4rem;
+    line-height: 1.4rem;
       color: #6d93d2;
       font-family: 'EuclidL';
       margin: 0 auto;
       text-align: center;
       text-rendering: optimizeLegibility;}
 
-.copyright h5 {font-size: 0.85rem;
-	  line-height: 1.4rem;
-      color: #fff;
-      font-family: 'EuclidR';
-      margin: 0 auto;
-      text-align: center;
-      text-rendering: optimizeLegibility;
-      padding-bottom: 2%;
-      padding-top: 5%;}
+.copyright h5 {padding-top: 10%;}
 
-.logo2 {padding-top: 80px; padding-bottom: 2%;}
+.logo2 {padding-top: 70px; padding-bottom: 2%;}
 
-.linija1 { width: 38%; height: 1px; background-color: #6d93d2; left: 0; line-height: 40px; top: 56%; position: absolute; opacity: 0.2;}
-.linija2 { width: 38%; height: 1px; background-color: #6d93d2;  right:0;   top: 56%; position: absolute; opacity: 0.2;}
+.linija1 { display: none;}
+.linija2 { display: none;}
 
 .naslovi {width: 100%;  text-align: center;   position: relative; margin: 0 auto; padding-bottom: 30px;}
 
-.social { margin-top: 3%; }
+.social { margin-top: 10%; margin-bottom:  6%;}
 .social li  {clear: both; display: inline-block; margin-right: 22px; vertical-align: middle;}
 .social li:last-child  {margin-right: 0;}
 .social li a img  {  -webkit-transition: all 0.4s ease-in; -moz-transition: all 0.4s ease-in; -o-transition: all 0.4s ease-in; -ms-transition: all 0.4s ease-in; transition: all 0.4s ease-in;}
 .social li a:hover img  {opacity: 0.6; transition: all 0.2s ease-in-out;}
 .social p { line-height: 1.8rem; color: #fff; font-family: 'EuclidR'; }
 /******** kraj footera ********/
+
+}
+}
+
+
 
 
 
