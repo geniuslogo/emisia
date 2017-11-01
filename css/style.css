@@ -532,6 +532,64 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   }
 }
 
+
+
+
+                          /******** L A T E S T    N E W S ********/
+
+.content-latest-news {background: #f2f5fa; width: 100%; background-attachment: fixed; background-size: 100%; min-height: 720px;}  
+.podnaslov-news {    display: inline-block; width: 40%; margin-top: 3%; margin-bottom: 0.5%;}
+.bignews {margin: 0 auto; text-align: center; display: flex; justify-content: center;}
+.bignews-content {width: 24%; background-color: #fff; height: auto; float: left; margin-right: 3%;}
+
+.bignews-content:last-child {margin-right: 0%;}    
+
+.newspics {  position: relative;}
+.newspics > a > img { max-width: 94%; vertical-align: bottom; margin-top: 3%;}  
+.news-title {width: 94%; margin: 0 auto;}
+.news-title h2 {
+      font-size: 1.4rem;
+      line-height: 1.6rem;
+      color: #557dbd;
+      font-family: 'EuclidR';
+      width: 94%;
+      margin: 0 auto;
+      padding: 6% 0;
+      text-align: left;
+      text-rendering: optimizeLegibility;}    
+
+.overlay55 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #134697;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}  
+
+.text55 a {
+  white-space: nowrap; 
+  font-family: 'EuclidR';
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.newspics:hover .overlay55 {
+  width: 100%;
+}     
+
+
+
+
                           /******** F  O  O  T  E  R ********/
 
 .copyright {height: 600px; background-color: #134697;}
