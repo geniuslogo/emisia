@@ -475,7 +475,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 .content {background: #f2f5fa url(../images/gtr.svg) no-repeat center; width: 100%; background-attachment: fixed; background-size: 100%; margin-top: -30px;}
 
 .content p{ 
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       line-height: 2.2rem;
       color: #000;
       font-family: 'EuclidR';
@@ -678,6 +678,18 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
 @media only screen and (max-width: 1600px) {
+
+.content p{ 
+      font-size: 1.1rem;
+      line-height: 2.2rem;
+      color: #000;
+      font-family: 'EuclidR';
+      width: 50%;
+      margin: 0 auto;
+      padding: 2% 0;
+      text-align: left;
+      text-rendering: optimizeLegibility;
+    }
 
 .text {
   padding-left: 10%;
@@ -882,10 +894,10 @@ div.main > h1 > span { font-size: 12.6rem;}
     color: #164a9d;
     font-family: 'EuclidR';
     margin: 0 auto;
-    padding: 20% 0;
+    padding: 10% 0;
     text-align: center;
     text-rendering: optimizeLegibility;
-    margin-top: 35%;} 
+    margin-top: 0%;} 
 
 .mish p {
       font-size: 1.1rem;
