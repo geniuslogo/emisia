@@ -679,6 +679,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 
 @media only screen and (max-width: 1600px) {
 
+.podnaslov {display: inline-block; width: 50%; margin-top: 5%;}
 .content p{ 
       font-size: 1.1rem;
       line-height: 2.2rem;
@@ -885,7 +886,7 @@ div.main > h1 > span { font-size: 12.6rem;}
     font-family: 'EuclidR';
     margin: 0 auto;
     padding: 2% 0;
-    text-align: center;
+    text-align: left;
     text-rendering: optimizeLegibility;
     margin-top: 8%;}
 
@@ -895,7 +896,7 @@ div.main > h1 > span { font-size: 12.6rem;}
     font-family: 'EuclidR';
     margin: 0 auto;
     padding: 10% 0;
-    text-align: center;
+    text-align: left;
     text-rendering: optimizeLegibility;
     margin-top: 0%;} 
 
@@ -1010,8 +1011,8 @@ div.main > h1 > span { font-size: 10.6rem;}
 
 
 .content p {
-    font-size: 1rem;
-    line-height: 1.8rem;
+    font-size: 1.1rem;
+    line-height: 2.1rem;
     color: #000;
     font-family: 'EuclidR';
     width: 75%;
