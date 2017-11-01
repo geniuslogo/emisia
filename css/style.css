@@ -250,7 +250,7 @@ path#middle { stroke-dasharray: 240px 240px;}
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: #f16724;
+    background-color: #134697;
     visibility: hidden;
     -webkit-transition: visibility 0s 0.7s;
     -moz-transition: visibility 0s 0.7s;
@@ -353,7 +353,7 @@ path#middle { stroke-dasharray: 240px 240px;}
 
     .navi .primary-navi a:hover {
       font-size: 6rem;
-      color: #164a9d;
+      color: #f16724;
       font-family: 'EuclidL';
       transition: all 0.4s ease-in-out;
     }
