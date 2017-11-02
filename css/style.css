@@ -714,7 +714,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
       text-align: left;
       text-rendering: optimizeLegibility;}
 
-.pera2 { width: 70px; display: inline-block; margin: -34px 10px;}
+.pera2 { width: 70px; display: inline-block; margin: -34px 10px; cursor: unset;}
 
 .homer0 { margin-top: 5%;}
 
