@@ -435,7 +435,7 @@ path#middle { stroke-dasharray: 240px 240px;}
   padding: 30px 12px;
   position: absolute;
   bottom: 9%;
-  right: 0.7%;
+  right: 1%;
   /* Safari */
 -webkit-transform: rotate(-90deg);
 
