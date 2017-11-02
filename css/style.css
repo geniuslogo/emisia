@@ -774,7 +774,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   padding: 30px 12px;
   position: absolute;
   bottom: 9%;
-  right: 0.7%;
+  right: 2%;
 }
 
 
@@ -847,7 +847,7 @@ div.main > h1 > span { font-size: 17.6rem;}
   padding: 30px 12px;
   position: absolute;
   bottom: 9%;
-  right: 0.7%;
+  right: 1.5%;
 }
 
 
@@ -918,8 +918,8 @@ div.main > h1 > span { font-size: 12.6rem;}
 .homer4 {margin-bottom: 0px;}
 .homer5 {margin-bottom: 100px;}
 
-.mish {width: 100%; float: left; border-right:none; border-top:none;    min-height: 250px;   padding-top: 5%; flex: 1; padding-right: 0%; padding-left: 1%;}
-.mish2 {width: 100%; float: left; border-right:none; border-top:none;   min-height: 250px;   padding-top: 5%; flex: 1; padding-left: 1%;}
+.mish {width: 85%; float: left; border-right:none; border-top:none;    min-height: 250px;   padding-top: 5%; flex: 1; padding-right: 0%; padding-left: 10%;}
+.mish2 {width: 85%; float: left; border-right:none; border-top:none;   min-height: 250px;   padding-top: 5%; flex: 1; padding-left: 10%;}
 .mish0 {width: 100%; float: left; border-right:none; border-top:none;   min-height: 150px;   display: flex; justify-content: center; flex-direction: column;}
 
 .mish h4 {width: 80%;
@@ -960,7 +960,7 @@ div.main > h1 > span { font-size: 12.6rem;}
 
 .mish p {
       font-size: 1.1rem;
-      width:80%;
+      width:95%;
       line-height: 2.2rem;
       color: #000;
       font-family: 'EuclidR';
@@ -971,7 +971,7 @@ div.main > h1 > span { font-size: 12.6rem;}
 
 .mish2 p {
       font-size: 1.1rem;
-      width:80%;
+      width:95%;
       line-height: 2.2rem;
       color: #000;
       font-family: 'EuclidR';
@@ -1013,7 +1013,7 @@ div.main > h1 > span { font-size: 12.6rem;}
   padding: 30px 12px;
   position: absolute;
   bottom: 9%;
-  right: 0.7%;
+  right: 3%;
 }
 
 
