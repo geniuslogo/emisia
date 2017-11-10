@@ -1503,7 +1503,9 @@ textarea {
 
 
 
-
+.kontakt-holder {clear: both; width: 100%; margin:auto;}
+.kontakt-container {width: 100%; background: url(../images/gtr800.svg) no-repeat center;  margin:auto; background-size: cover;  -webkit-animation: fadeEffect 1.5s;animation: fadeEffect 1.5s;}
+.kontakt-container p {color: #fff; font-family: 'EuclidR'; letter-spacing: 2px;     font-size: 3.2rem; padding-top:16%; padding-bottom: 3%; width: 100%; text-align: center;}
 
 
 
