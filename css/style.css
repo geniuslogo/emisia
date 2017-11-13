@@ -1470,7 +1470,7 @@ textarea {
 
 
 
-/****************************************************     M    A    P    A    ****************************************************/
+/******************    M    A    P    A    ****************/
 
 .info {background-color: rgb(242, 245, 250); display: block;}
 
@@ -1505,6 +1505,81 @@ textarea {
 .kontakt-holder {clear: both; width: 100%; margin:auto;}
 .kontakt-container {width: 100%; background: url(../images/gtr800.svg) no-repeat center;  margin:auto; background-size: cover;  -webkit-animation: fadeEffect 1.5s;animation: fadeEffect 1.5s;}
 .kontakt-container p {color: #fff; font-family: 'EuclidR'; letter-spacing: 2px;     font-size: 3.2rem; padding-top:16%; padding-bottom: 3%; width: 100%; text-align: center;}
+
+/******* kraj mape *******/
+
+
+
+@media only screen and (max-width: 1200px) {
+
+#map {width: 50%; height: 500px; float: left;}
+.informacije {float: left; width: 50%; background-color: rgb(242, 245, 250);height: 500px;}
+  .kontakt-container {height: 500px; }
+  .kontakt-container p {padding-top:35%; }
+}
+
+
+@media only screen and (max-width: 900px) {
+
+.kontakt-container {height: 500px; }
+
+#map {width: 100%; height: 500px; float: left;}
+.informacije {float: left; width: 100%;}
+.kontakt-container p {padding-top:45%; }
+}
+
+
+@media only screen and (max-width: 670px) {
+
+    .kontakt-container p {padding-top:60%; }
+
+
+  .informacije {height: 400px;}
+
+  .informacije p {
+    font-size: 1.1rem;
+    line-height: 2.2rem;
+    color: #000;
+    font-family: 'EuclidR';
+    margin: 0 auto;
+    text-align: left;
+    padding-left: 10%;
+    text-rendering: optimizeLegibility;
+}
+.informacije p:first-child {padding-top: 12%;}
+
+
+.informacije span {
+    font-size: 1.2rem;
+    line-height: 7rem;
+    color: #557dbd;
+    font-family: 'EuclidR';
+    text-align: left;
+    text-rendering: optimizeLegibility;}
+
+
+.feedback-input {
+
+  font-size: 1.1rem;
+
+}
+
+.send-button {
+  font-size: 1.1rem;
+
+}
+
+  }
+
+
+
+
+
+
+
+
+
+
 
 
 
