@@ -1024,6 +1024,19 @@ div.main > h1 > span { font-size: 12.6rem;}
 
 @media only screen and (max-width: 900px) {
 
+  svg {
+  width: 90px;
+  height: 60px;
+  cursor: pointer;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.navi-trigger svg { position: absolute; top: 9px; left: 56px;}
+
 .mouse{ margin-top: -12%; width: 100px; position: absolute; text-align: center; margin-left: 50%;}
 
 
@@ -1092,6 +1105,20 @@ div.main > h1 > span { font-size: 10.6rem;}
 
 @media only screen and (max-width: 670px) {
 
+
+  svg {
+  width: 90px;
+  height: 60px;
+  cursor: pointer;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+
+
 .logo {background: url(../images/logo_emisia.svg) no-repeat center;  width: 180px; height: 60px; position: absolute; margin-top:22px; margin-left:36px; z-index: 1;}
 .mouse{ display: none;}
 
@@ -1122,7 +1149,7 @@ div.main > h1 > span { font-size: 10.6rem;}
   right: -2%;
 }
 
-.navi-trigger svg { position: absolute; top: -40px; left: 42px;}
+.navi-trigger svg { position: absolute; top: -24px; left: 70px;}
 
 
 .content p {
