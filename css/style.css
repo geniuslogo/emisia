@@ -1521,7 +1521,8 @@ textarea {
 
 @media only screen and (max-width: 900px) {
 
-.kontakt-container {height: 500px; }
+.kontakt-container {height: 500px; left: -500px;}
+
 
 #map {width: 100%; height: 500px; float: left;}
 .informacije {float: left; width: 100%;}
@@ -1531,8 +1532,14 @@ textarea {
 
 @media only screen and (max-width: 670px) {
 
-    .kontakt-container p {padding-top:60%; }
+  .form-div {
 
+
+    margin-top: 2.5em;
+    margin-bottom: 3.5em;}
+
+  .kontakt-container p {padding-top:40%; }
+  .kontakt-container {height: 350px; }
 
   .informacije {height: 400px;}
 
