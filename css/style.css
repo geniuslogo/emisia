@@ -1552,7 +1552,7 @@ textarea {
 #map {width: 50%; height: 500px; float: left;}
 .informacije {float: left; width: 50%; background-color: rgb(242, 245, 250);height: 500px;}
   .kontakt-container {height: 500px; }
-  .kontakt-container p {padding-top:35%; }
+  .kontakt-container p {padding-top:400px; }
 }
 
 
