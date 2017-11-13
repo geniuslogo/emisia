@@ -1533,12 +1533,10 @@ textarea {
 @media only screen and (max-width: 670px) {
 
   .form-div {
-
-
     margin-top: 2.5em;
     margin-bottom: 3.5em;}
 
-  .kontakt-container p {padding-top:270px; }
+  .kontakt-container p {padding-top:270px; font-size: 2.5rem;}
   .kontakt-container {height: 350px; }
 
   .informacije {height: 400px;}
